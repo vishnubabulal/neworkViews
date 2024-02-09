@@ -5,51 +5,12 @@ var colID = null; //variable for node click ID
 var assetsDataArray = []; //array for data set
 //Data array starts here
 var assetsDataArray = {
-  "101": {
-    "CarBrands": {
-      "101": {
-        "Audi": {
-          "201": "Maintenance",
-          "202": "Repair",
-          "203": "Parts Replacement"
-        },
-        "BMW": {
-          "301": "Oil Change",
-          "302": "Tire Rotation",
-          "303": "Brake Service"
-        }
-      }
-    }
-  },
-  "202": {
-    "CarBrands": {
-      "202": {
-        "Volkswagen": {
-          "401": "Diagnostic Check",
-          "402": "Engine Tune-up",
-          "403": "Electrical Repair"
-        },
-        "Benz": {
-          "501": "Transmission Service",
-          "502": "Suspension Repair"
-        }
-      }
-    }
-  },
-  "303": {
-    "CarBrands": {
-      "303": {
-        "Porsche": {
-          "601": "AC Repair",
-          "602": "Alignment"
-        },
-        "Bugatti": {
-          "701": "Cooling System Service",
-          "702": "Fuel Injection Cleaning"
-        }
-      }
-    }
-  }
+  "51":
+  {"AssetLinks":{"51":{"Audi":{"116":"Audi A4","10193":"Audi A6"},"BMW":{"11":"BMW iX3","125":"BMW X2","481":"BMW M4"},"Volkswagen":{"20":"Golf"},"Benz":{"10013":"SLS AMG","10014":"GLE Coupe" ,"2911":"GLC "}}}},
+  "116":
+  {"AssetLinks":{"116":{"Audi":{"51":"Audi Q7","10193":"Audi A6"},"BMW":{"11":"BMW iX3","5960":"BMW M3 Sedan"},"Volkswagen":{"5902":"Polo"}}}},
+  "2911":
+  {"AssetLinks":{"2911":{"Audi":{"51":"Audi Q7","10193":"Audi A6"},"BMW":{"594":"BMW X6","6964":"BMW 5 Series Sedan","6967":"BMW 340"}}}}
 }
 //Data array ends here
 var nodes = new vis.DataSet(); 
