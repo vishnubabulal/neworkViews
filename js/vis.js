@@ -8,12 +8,12 @@ var assetsDataArray = {
   "101": {
     "CarBrands": {
       "101": {
-        "Toyota": {
+        "Audi": {
           "201": "Maintenance",
           "202": "Repair",
           "203": "Parts Replacement"
         },
-        "Honda": {
+        "BMW": {
           "301": "Oil Change",
           "302": "Tire Rotation",
           "303": "Brake Service"
@@ -24,12 +24,12 @@ var assetsDataArray = {
   "202": {
     "CarBrands": {
       "202": {
-        "Ford": {
+        "Volkswagen": {
           "401": "Diagnostic Check",
           "402": "Engine Tune-up",
           "403": "Electrical Repair"
         },
-        "Chevrolet": {
+        "Benz": {
           "501": "Transmission Service",
           "502": "Suspension Repair"
         }
@@ -39,11 +39,11 @@ var assetsDataArray = {
   "303": {
     "CarBrands": {
       "303": {
-        "Nissan": {
+        "Porsche": {
           "601": "AC Repair",
           "602": "Alignment"
         },
-        "Hyundai": {
+        "Bugatti": {
           "701": "Cooling System Service",
           "702": "Fuel Injection Cleaning"
         }
@@ -115,11 +115,11 @@ function callDataArray(colID = '', toggle = ''){
               var shapeIconlabel = '\uf19c';
               var shapeIconColor = '#f19814';
               break;
-            case 'networks':
+            case 'Porsche':
               var shapeIconlabel = '\uf19c';
               var shapeIconColor = '#ff1493';
               break;
-            case 'vtResponsibles':
+            case 'Bugatti':
               var shapeIconlabel = '\uf19c';
               var shapeIconColor = '#2d8c0d';
               break;
