@@ -5,65 +5,47 @@ var colID = null; //variable for node click ID
 var assetsDataArray = []; //array for data set
 //Data array starts here
 var assetsDataArray = {
-  "51":
-  {
-    "CarBrands":
-    {
-      "51":
-      {
-        "Audi":
-        {
-          "116":"Fileserver","10193":"Test Asset"
+  "101": {
+    "CarBrands": {
+      "101": {
+        "Toyota": {
+          "201": "Maintenance",
+          "202": "Repair",
+          "203": "Parts Replacement"
         },
-        "BMW":
-        {
-          "11":"service00","125":"IT service 39","481":"service1001"
-        },
-        "Volkswagen":
-        {
-          "20":"Data Test1"
-        },
-        "Benz":
-        {
-          "10013":"PDF-Export","10014":"SystemData" ,"2911":"ITAsset111 "
+        "Honda": {
+          "301": "Oil Change",
+          "302": "Tire Rotation",
+          "303": "Brake Service"
         }
       }
     }
   },
-  "116":
-  {
-    "CarBrands":
-    {
-      "116":
-      {
-        "Audi":
-        {
-          "51":"Contract 144","10193":"Test Asset"
+  "202": {
+    "CarBrands": {
+      "202": {
+        "Ford": {
+          "401": "Diagnostic Check",
+          "402": "Engine Tune-up",
+          "403": "Electrical Repair"
         },
-        "BMW":
-        {
-          "11":"service00","5960":"IT-Service01"
-        },
-        "Volkswagen":
-        {
-          "5902":"Data01"
+        "Chevrolet": {
+          "501": "Transmission Service",
+          "502": "Suspension Repair"
         }
       }
     }
   },
-  "2911":
-  {
-    "CarBrands":
-    {
-      "2911":
-      {
-        "Audi":
-        {
-          "51":"Contract 144","10193":"Test Asset"
+  "303": {
+    "CarBrands": {
+      "303": {
+        "Nissan": {
+          "601": "AC Repair",
+          "602": "Alignment"
         },
-        "BMW":
-        {
-          "594":"service1004","6964":"ITService02","6967":"ITService03"
+        "Hyundai": {
+          "701": "Cooling System Service",
+          "702": "Fuel Injection Cleaning"
         }
       }
     }
