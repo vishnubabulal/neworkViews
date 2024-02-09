@@ -6,11 +6,68 @@ var assetsDataArray = []; //array for data set
 //Data array starts here
 var assetsDataArray = {
   "51":
-  {"AssetLinks":{"51":{"links":{"116":"Fileserver","10193":"Test Asset"},"services":{"11":"service00","125":"IT service 39","481":"service1001"},"dataProcesses":{"20":"Data Test1"},"departments":{"10013":"PDF-Export","10014":"SystemData" ,"2911":"ITAsset111 "}}}},
+  {
+    "AssetLinks":
+    {
+      "51":
+      {
+        "links":
+        {
+          "116":"Fileserver","10193":"Test Asset"
+        },
+        "services":
+        {
+          "11":"service00","125":"IT service 39","481":"service1001"
+        },
+        "dataProcesses":
+        {
+          "20":"Data Test1"
+        },
+        "departments":
+        {
+          "10013":"PDF-Export","10014":"SystemData" ,"2911":"ITAsset111 "
+        }
+      }
+    }
+  },
   "116":
-  {"AssetLinks":{"116":{"links":{"51":"Contract 144","10193":"Test Asset"},"services":{"11":"service00","5960":"IT-Service01"},"dataProcesses":{"5902":"Data01"}}}},
+  {
+    "AssetLinks":
+    {
+      "116":
+      {
+        "links":
+        {
+          "51":"Contract 144","10193":"Test Asset"
+        },
+        "services":
+        {
+          "11":"service00","5960":"IT-Service01"
+        },
+        "dataProcesses":
+        {
+          "5902":"Data01"
+        }
+      }
+    }
+  },
   "2911":
-  {"AssetLinks":{"2911":{"links":{"51":"Contract 144","10193":"Test Asset"},"services":{"594":"service1004","6964":"ITService02","6967":"ITService03"}}}}
+  {
+    "AssetLinks":
+    {
+      "2911":
+      {
+        "links":
+        {
+          "51":"Contract 144","10193":"Test Asset"
+        },
+        "services":
+        {
+          "594":"service1004","6964":"ITService02","6967":"ITService03"
+        }
+      }
+    }
+  }
 }
 //Data array ends here
 var nodes = new vis.DataSet(); 
