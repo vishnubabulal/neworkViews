@@ -7,23 +7,23 @@ var assetsDataArray = []; //array for data set
 var assetsDataArray = {
   "51":
   {
-    "AssetLinks":
+    "CarBrands":
     {
       "51":
       {
-        "links":
+        "Audi":
         {
           "116":"Fileserver","10193":"Test Asset"
         },
-        "services":
+        "BMW":
         {
           "11":"service00","125":"IT service 39","481":"service1001"
         },
-        "dataProcesses":
+        "Volkswagen":
         {
           "20":"Data Test1"
         },
-        "departments":
+        "Benz":
         {
           "10013":"PDF-Export","10014":"SystemData" ,"2911":"ITAsset111 "
         }
@@ -32,19 +32,19 @@ var assetsDataArray = {
   },
   "116":
   {
-    "AssetLinks":
+    "CarBrands":
     {
       "116":
       {
-        "links":
+        "Audi":
         {
           "51":"Contract 144","10193":"Test Asset"
         },
-        "services":
+        "BMW":
         {
           "11":"service00","5960":"IT-Service01"
         },
-        "dataProcesses":
+        "Volkswagen":
         {
           "5902":"Data01"
         }
@@ -53,15 +53,15 @@ var assetsDataArray = {
   },
   "2911":
   {
-    "AssetLinks":
+    "CarBrands":
     {
       "2911":
       {
-        "links":
+        "Audi":
         {
           "51":"Contract 144","10193":"Test Asset"
         },
-        "services":
+        "BMW":
         {
           "594":"service1004","6964":"ITService02","6967":"ITService03"
         }
@@ -117,19 +117,19 @@ function callDataArray(colID = '', toggle = ''){
           //console.log(assetid +'-'+Object.keys(assetsTypeValues)[0]);
           switch(assetTypeName)
           {
-            case 'links':
+            case 'Audi':
               var shapeIconlabel = '\uf109';
               var shapeIconColor = '#10b2fe';
               break;
-            case 'services':
+            case 'BMW':
               var shapeIconlabel = '\uf233';
               var shapeIconColor = '#690e6d';
               break;
-            case 'dataProcesses':
+            case 'Volkswagen':
               var shapeIconlabel = '\uf28d';
               var shapeIconColor = '#000000';
               break;
-            case 'departments':
+            case 'Benz':
               var shapeIconlabel = '\uf19c';
               var shapeIconColor = '#f19814';
               break;
